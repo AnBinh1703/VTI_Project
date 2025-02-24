@@ -1,0 +1,119 @@
+  .shop-cart {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .shop-cart-title {
+    text-align: center;
+    font-size: 26px;
+    margin-bottom: 30px;
+  } 
+  .shop-cart-item-image {
+    width: 100px; 
+    height: 100px;
+  }
+
+.shop-cart-total {
+    width: 80px;
+}
+
+.btn-decrease,
+.btn-increase {
+    width: 20px;
+    margin: 0 5px;
+}
+
+.shop-cart-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.title-product-name {
+  text-align: left !important;
+}
+
+/* CSS cho header của bảng */
+.shop-cart-table th {
+  background-color: #f2f2f2;
+  padding: 10px;
+  text-align: center;
+  font-weight: bold;
+  border: 1px solid #ddd;
+}
+
+/* CSS cho các ô dữ liệu trong bảng */
+.shop-cart-table td {
+  padding: 10px;
+  text-align:center;
+  border: 1px solid #ddd;
+}
+.shop-cart-item-name {
+  text-align: left !important;
+}
+/* CSS cho ảnh sản phẩm */
+.shop-cart-item-image img {
+  max-width: 50px; /* Đặt kích thước tối đa cho ảnh */
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+/* CSS cho nút tăng/giảm số lượng */
+.shop-cart-item-total {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-decrease,
+.btn-increase {
+  background-color: black;
+  color: #fff;
+  border: none;
+  padding: 2px 10px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-decrease:hover,
+.btn-increase:hover {
+  background-color: #2c3e50;
+}
+
+/* CSS cho ô checkbox */
+.shop-cart-table input[type="checkbox"] {
+  cursor: pointer;
+}
+
+/* CSS cho tổng cộng */
+.shop-cart-item-sum-price {
+  font-weight: bold;
+  color: #e74c3c; /* Màu đỏ đậm cho tổng cộng */
+}
+
+.box-order {
+  margin-top: 30px;
+  float: right;
+}
+
+.sum-price-total-selected-items {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.btn-back-to-home {
+  display: block;
+  margin-bottom: 20px;
+  color: #000;
+  text-decoration: underline;
+  color: rgb(31,164,143);
+}
+
+.btn-back-to-home:hover {
+  color: rgb(0,72,61);
+}

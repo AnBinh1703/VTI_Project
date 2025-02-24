@@ -1,0 +1,85 @@
+
+footer{
+  margin: 0 auto;
+  justify-content: center;/*can giua theo chieu ngang*/
+  font-family: -apple-system,BlinkMacSystemFont,'Segoe UI';
+  font-size: 13px;
+  font-weight: 400;
+  color: #0f0f0f;
+  background: #f5f1f1;
+}
+
+
+footer .bgf {
+  background: #00483d;
+  border-radius: 11px;
+  padding: 10px 20px 10px 20px;
+  color: #fff;
+  width: 100%;
+}
+
+footer .bgf ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: block !important;
+}
+
+footer .bgf .col-content {
+  display: flex;
+}
+
+footer .bgf .col-content > div {
+  flex-direction: column;
+  width: 16.6666%;
+}
+
+
+
+footer .bgf .col-content h4 {
+  font-size: 15px;
+  margin: 10px 0 6px 0;
+}
+
+footer .bgf ul li {
+  margin-bottom: 3px;
+}
+
+footer .bgf a,
+footer .bgf a:link,
+footer .bgf a:visited {
+  color: #ddd;
+}
+
+footer .bgf a:hover {
+  color: #fff;
+}
+
+footer .bgf ul.list-logo li img {
+  margin-right: 3px;
+}
+
+footer .bgf .hotline {
+  display: inline-block;
+  padding: 6px 10px;
+  background: #fff;
+  border-radius: 4px;
+  color: #00483d;
+}
+
+footer .bgf a.hotline,
+footer .bgf a.hotline:link,
+footer .bgf a.hotline:visited {
+  color: #00483d;
+  font: Bold 18px/18px -apple-system, BlinkMacSystemFont, "Segoe UI";
+}
+
+footer .info {
+  padding-top: 30px;
+  text-align: center;
+}
+
+footer .info p {
+  margin: 0 0 5px 0;
+  font-size: 9pt;
+}

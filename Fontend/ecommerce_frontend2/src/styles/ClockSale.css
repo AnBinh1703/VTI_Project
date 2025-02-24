@@ -1,0 +1,31 @@
+/* ClockSale.css */
+
+.countdown {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  margin-left: 20px;
+}
+
+.countdown span {
+  font-size: 1rem; /* Điều chỉnh kích thước chữ của đồng hồ */
+  margin-right: 5px; /* Tăng hoặc giảm khoảng cách giữa các thành phần */
+}
+
+.time {
+  width: auto;
+  padding: 5px;
+  display: block;
+  background-color: black;
+  color: #fff;
+  border-radius: 5px;
+}
+
+/* Điều chỉnh kích thước các thành phần cụ thể (nếu cần) */
+.countdown .days,
+.countdown .hours,
+.countdown .minutes,
+.countdown .seconds {
+  font-weight: bold; /* Đặt độ đậm cho số ngày, giờ, phút, giây */
+  /* Điều chỉnh kích thước hoặc các thuộc tính khác nếu cần */
+}

@@ -1,0 +1,33 @@
+.table-category {
+    width: 90%;
+    margin: auto;
+}
+
+.category-management-title {
+    font-size: 32px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+.category-management-filter {
+    width: 90%;
+    margin: 5px auto 20px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.search-category {
+    width: 300px;
+}
+
+.btn-add-category {
+    margin-left: 5%;
+    margin-bottom: 10px;
+    background-color: rgb(22,119,255);
+    color: #fff;
+}
+
+.btn-add-category:hover{
+    background-color: rgb(88, 154, 247);
+    color: #fff !important;
+}
