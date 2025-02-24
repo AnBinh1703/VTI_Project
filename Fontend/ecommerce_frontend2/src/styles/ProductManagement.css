@@ -1,0 +1,41 @@
+.product-management-container {
+    width: 90%;
+    margin: auto;
+}
+
+.product-management-title {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.product-management-filter {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn-add-product {
+    margin-bottom: 10px;
+    background-color: rgb(22,119,255);
+    color: #fff;
+}
+
+.btn-add-product:hover{
+    background-color: rgb(88, 154, 247);
+    color: #fff !important;
+}
+
+.btn-reset-list-product {
+    margin-bottom: 10px;
+    background-color: rgb(22,119,255);
+    color: #fff;
+    margin-left: 20px;
+}
+
+.btn-reset-list-product:hover{
+    background-color: rgb(88, 154, 247);
+    color: #fff !important;
+}

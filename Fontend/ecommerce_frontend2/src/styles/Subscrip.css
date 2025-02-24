@@ -1,0 +1,36 @@
+.sub-scrip-container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 1rem;
+    margin: 25px 0px;
+
+}
+
+.sub-scrip-image {
+    width: 160px;
+    height: auto;
+}
+
+.subscrip-ct {
+    font-size: 16px;
+    font-weight: 300;
+    margin-top: 5px;
+}
+.sub-scrip-content {
+    text-align: center;
+}
+
+.search-news {
+    width: 350px;
+    padding: 20px;
+    height: 100px;
+}
+
+.search-new-content {
+    width: 350px;
+    padding: 10px;
+}

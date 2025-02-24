@@ -1,0 +1,38 @@
+.ant-space-item a {
+    color: #1677ff;
+}
+
+.ant-table-cell a {
+    color: #1677ff;
+}
+
+.ant-modal-content {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+  }
+  
+  .ant-modal-header {
+    text-align: center;
+  }
+  
+  .ant-modal-title {
+    flex: 1;
+  }
+  
+  .ant-form {
+    margin-top: 20px; /* Adjust as needed */
+  }
+  
+  .ant-form-item {
+    margin-bottom: 16px;
+  }
+  
+  /* Optional: Adjust the width of the input fields */
+  .ant-input {
+    width: 100%;
+  }
+
+  .ant-form-item-label {
+    width: 100px;
+  }

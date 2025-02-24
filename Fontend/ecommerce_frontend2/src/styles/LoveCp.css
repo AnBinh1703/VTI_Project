@@ -1,0 +1,29 @@
+.ads {
+    width: 100%;
+    margin-top: 25px;
+}
+
+.ins-preview {
+    height: auto;
+    padding-bottom: 5px;
+}
+.ins-title {
+    margin-top: 5px;
+    width: 300px;
+    background-color: #fff;
+    font-size: 15px;
+    padding: 5px;
+    padding-left: 45px;
+    font-weight: bold;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.ins-content {
+    margin-top: 10px;
+    height: auto;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+
+
+

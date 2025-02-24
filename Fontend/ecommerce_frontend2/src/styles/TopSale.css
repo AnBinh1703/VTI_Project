@@ -1,0 +1,13 @@
+.topSale_container{
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+
+.topSale_item{
+    width: 24%;
+}
+
+.topSale_item img{
+    width: 100%;
+}

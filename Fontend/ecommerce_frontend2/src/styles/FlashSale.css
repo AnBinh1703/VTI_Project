@@ -1,0 +1,84 @@
+
+.FlashSale_container{
+    width: 100%;
+    margin-top: 50px;
+}
+
+.header_FlashSale{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+.header_FlashSale h3{
+    width: auto;
+    margin-right: 40px;
+    color: #fc521d;
+    font-size: 28px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.flashSale_nav{
+    flex: 1;
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+
+
+.flashSale_nav_item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: max-content;
+    font-size: 14px;
+}
+
+.btn-flashSale {
+    padding: 5px 10px;
+    width: 100%;
+    border-radius: 10px;
+    border: 1px solid rgb(0,153,129);
+    color: #000;
+    font-weight: bold;
+    background-color: #fff;
+    z-index: 2;
+}
+
+.btn-flashSale:hover{
+    background-color: rgb(0,153,129);
+    color: #fff;
+}
+
+.active{
+    background-color: rgb(0,153,129);
+    color: #fff;
+}
+
+.Clock_Sale{
+    flex: 1;
+
+}
+
+/* .content_FlashSale {
+    background-color: #fff;
+    border: 1px solid #fff;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+} */
+
+.content_FlashSale {
+    margin-top: 20px;
+    padding: 5px 10px;
+    border: 1px solid #fff;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+    margin-bottom: 30px;
+}
+
