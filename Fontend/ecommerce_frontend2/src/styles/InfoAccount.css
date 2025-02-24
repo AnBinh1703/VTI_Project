@@ -1,0 +1,131 @@
+.account-info-container {
+    width: 100%;
+    height: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.title-infor-account {
+    font-size: 22px;
+    padding-top: 50px;
+    margin-bottom: 25px;
+    font-weight: bold;
+}
+.bg {
+    width: 100%;
+    padding: 20px;
+    padding-bottom: 36px;
+    border-radius: 10px;
+    display: flex;
+    background-color: rgb(220,237,253);
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    color: rgb(71,99,125);
+}
+
+.bgv {
+    width: 70%;
+    margin-left: 50px;
+}
+.bgv h2 {
+    padding-top: 40px;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.bg img {
+    position: absolute;
+    right: 5px;
+    width: 250px;
+    height: 160px;
+}
+
+.wishlist-image {
+    position: absolute;
+    right: 5px;
+    width: 300px !important;
+    height: 215px !important;    
+}
+
+.form-info-account {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title-update-info-account {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+.title-update-order-your {
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-size: 18px;    
+}
+
+.form-update-account {
+    margin-right: 100px;
+    width: 80%;
+}
+
+.change-password {
+    background-color: #1677ff;
+    margin-top: 20px;
+    color: #fff;
+}
+
+.change-password:hover{
+    background-color: #4c85d6;
+    color: #fff !important;
+}
+
+.ant-modal-content {
+    padding: 20px !important;
+}
+
+.ant-modal-title {
+    text-align: center;
+}
+
+.order-your-content {
+    margin-top: 30px;
+}
+
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .product-item {
+    width: 100%;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+  }
+  .product-wish-name {
+    width: 600px;
+  }
+  .product-item img {
+    max-width: 100px;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .product-item p {
+    margin: 0;
+    margin-left: 20px;
+    margin-right: 50px;
+    font-size: 18px;
+  }
+
+  .btn-redirect-item-detail {
+    margin-right: 10px;
+  }

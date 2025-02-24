@@ -1,0 +1,93 @@
+.item-content {
+    padding-top: 15px;
+    width: auto;
+    height: auto;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    transition: scale 0.3s ease;
+    cursor: pointer;
+    position: relative;
+    margin-left: 2px;
+    color: black;
+}
+
+.item-content:hover{
+    background-color: #f0f0f0;
+    transform: scale(1.03);
+    filter: brightness(1.05);
+}
+
+.item-info{
+    text-align: center;
+}
+
+.img {
+    width: 180px;
+    height: 230px;
+}
+
+.ads-img {
+    width: 100%;
+    height: 120px;
+}
+.item-title {
+    width: 90%;
+    color: black;
+    height: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 16px;
+    margin-bottom: 10px;
+    word-break: break-all;
+}
+
+.price-sale {
+    color: red;
+    font-weight: bold;
+}
+.price {
+    padding-left: 10px;
+}
+
+.style-boder {
+    /* border: 1px solid rgba(0, 0, 0, 0.2); */
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
+    height: 365px;
+}
+.item-note {
+    position: absolute;
+    bottom: 10px;
+    left: 15px;
+    font-size: 14px;
+    font-family: -apple-system,BlinkMacSystemFont,'Segoe UI';
+}
+
+.text-orange {
+    font-size: 13px;
+    font-weight: bold;
+    color: rgb(247,148,30);
+}
+
+.km {
+    font-weight: 400;
+    font-size: 13px;
+    border-radius: 3px;
+    padding: 1px;
+    padding-left: 4px;
+    background-color: rgb(247,148,30);
+    color: #fff;
+    margin-right: 4px;
+}
+
+.item-price-up {
+    text-align: center;
+    font-family: -apple-system,BlinkMacSystemFont,'Segoe UI';
+    font-size: 13px;
+}
+
+.price-up {
+    color: red;
+}

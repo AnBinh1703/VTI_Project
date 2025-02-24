@@ -1,0 +1,107 @@
+.account-side-bar {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    color: #fff;
+}
+.account-container {
+    display: flex;
+}
+
+.account-side-bar {
+    position: relative;
+    width: 20%;
+    height: 100vh;
+    background: rgb(178,133,194);
+    background-color: #000;
+}
+
+
+.logo-hoangha-mobile-account {
+    width: 90%;
+    margin-left: 10px;
+    height: 120px;
+    margin-top:10px;
+    border-radius: 20px;
+}
+
+.account-to-home {
+    position: absolute;
+    bottom: 0;
+    padding-top: 15px;
+    width: 100%;
+    height: 50px;
+    color: #F4F4F4;
+    background-color: rgb(4, 99, 84);
+    display: block;
+    text-align: center;
+    
+  }
+  
+  .account-to-home:hover {
+    background-color: rgb(21, 121, 106);
+    color: #fff;
+  }
+.account-logo {
+    display: flex;
+    align-items: center;
+    margin: 20px 0px;
+    margin-left: 20px;
+}
+.image-user {
+    font-size: 28px;
+    padding:10px;
+    padding: 10px 20px;
+    border-radius: 50%;
+    background-color: rgb(108, 108, 247);
+    margin-right: 10px;
+}
+
+.account-username {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.side-bar-item {
+    padding: 15px 10px;
+    font-size: 16px;
+    cursor: pointer;
+    position: relative;
+}
+
+.side-bar-item::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.3s ease;
+}
+
+.side-bar-item:hover::after {
+    border-bottom: 1px solid black;
+}
+
+.side-bar-item:hover {
+    background-color: rgba(206, 202, 202, 0.938);
+    color: #000;
+}
+
+.account-icon {
+    margin-right: 5px;
+    font-size: 14px;
+    padding-left: 20px;
+}
+
+.account-body-content {
+    background-color: #F4F4F4;
+    width: 100%;
+    box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.2);
+}
+
+.active {
+    background-color: #fff;
+    color: #000;
+}
